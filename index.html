@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="display1">
+        <p class="display">1+</p>
+        <p class="display2"></p>
+    </div>
+    <p class="display3"> </p>
+    <div class="content">
+        <div class="number" id="num1" onclick="number(1)" onmouseover="hover(1)" onmouseleave="unhover(1)">
+            <p>1</p>
+        </div>
+        <div class="number" id="num2" onclick="number(2)" onmouseover="hover(2)" onmouseleave="unhover(2)">
+            <p>2</p>
+        </div>
+        <div class="number" id="num3" onclick="number(3)" onmouseover="hover(3)" onmouseleave="unhover(3)">
+            <p>3</p>
+        </div>
+        <div class="number" id="num4" onclick="number(4)" onmouseover="hover(4)" onmouseleave="unhover(4)">
+            <p>4</p>
+        </div>
+        <div class="number" id="num5" onclick="number(5)" onmouseover="hover(5)" onmouseleave="unhover(5)">
+            <p>5</p>
+        </div>
+        <div class="number" id="num6" onclick="number(6)" onmouseover="hover(6)" onmouseleave="unhover(6)">
+            <p>6</p>
+        </div>
+        <div class="number" id="num7" onclick="number(7)" onmouseover="hover(7)" onmouseleave="unhover(7)">
+            <p>7</p>
+        </div>
+        <div class="number" id="num8" onclick="number(8)" onmouseover="hover(8)" onmouseleave="unhover(8)">
+            <p>8</p>
+        </div>
+        <div class="number" id="num9" onclick="number(9)" onmouseover="hover(9)" onmouseleave="unhover(9)">
+            <p>9</p>
+        </div>
+        <div class="number" id="num10" onclick="number(10)" onmouseover="hover(10)" onmouseleave="unhover(10)">
+            <p>10</p>
+        </div>
+    </div>
+    <div class="buttons">
+        <button type="button" onclick="resetGame()">Reset</button>
+        <div>
+            <p>See opponent moves</p>
+            <label class="switch">
+                <input id="switch" type="checkbox" onchange="seeOppMoves()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
